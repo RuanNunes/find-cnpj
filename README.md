@@ -1,5 +1,5 @@
 ## Projeto find-cnpj
-esse projeto tem com objetivo disponibilizar de forma gratuita uma api para consultas sobre empresas brasileiras.
+esse projeto tem com objetivo disponibilizar uma api para consultas sobre empresas brasileiras.
 inicialmente o projeto é composto em dois projetos ramificados, um para tratar da api e disponibilização dos dados
 e outro projeto para tratar da analise dos dados e migração.
 
