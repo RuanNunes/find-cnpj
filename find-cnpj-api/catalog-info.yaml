@@ -12,7 +12,7 @@ metadata:
   annotations:
     
 spec:
-  type: service
+  type: api
   lifecycle: experimental
   owner: ruan nunes
-  system: find-cnpj
+  system: find-cnpj-api
