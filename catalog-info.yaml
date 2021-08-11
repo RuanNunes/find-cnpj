@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: service
+kind: Service
 metadata:
   name: find-cnpj
   description: |
