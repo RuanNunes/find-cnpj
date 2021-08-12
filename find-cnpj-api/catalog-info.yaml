@@ -1,18 +1,22 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: component
 metadata:
   name: find-cnpj-api
-  description: |
-    Micro serviço para prover api de consulta de cnpj
+  description: Serviço responsável por disponibilizar uma api para consulta de cnpj.
+  tags:
+    - java
+    - Quarkus
+#   annotations:
+#     sonarqube.org/project-key: value
   links:
-    - title: Website quarkus
-      url: https://quarkus.io/
-    - title: Documentation
-      url: https://quarkus.io/guides/
-  annotations:
-    
+    - url: https://quarkus.io/
+      title: Framework
+      icon: dashboard
+    - url: https://quarkus.io/guides/
+      title: docs
+      icon: dashboard
 spec:
-  type: api
+  type: service
   lifecycle: experimental
-  owner: ruan nunes
-  system: find-cnpj
+  owner: ruan
+  system: find-cnpj-api
