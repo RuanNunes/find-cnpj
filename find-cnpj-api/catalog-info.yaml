@@ -5,9 +5,7 @@ metadata:
   description: Serviço responsável por disponibilizar uma api para consulta de cnpj.
   tags:
     - java
-    - Quarkus
-#   annotations:
-#     sonarqube.org/project-key: value
+    - quarkus
   links:
     - url: https://quarkus.io/
       title: Framework
