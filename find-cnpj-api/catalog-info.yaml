@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: component
 metadata:
-  name: find-cnpj-api
+  name: find-cnpj-api-v1
   description: Serviço responsável por disponibilizar uma api para consulta de cnpj.
   tags:
     - java
@@ -17,4 +17,4 @@ spec:
   type: service
   lifecycle: experimental
   owner: ruan
-  system: find-cnpj-api
+  system: find-cnpj-api-v1
